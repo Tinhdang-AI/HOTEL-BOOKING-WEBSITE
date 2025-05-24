@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <style>
         *{
             font-family: 'Poppins', sans-serif;
@@ -29,9 +30,20 @@
         input[type=number] {
         -moz-appearance: textfield;
         }
+
+        .swiper-slide img {
+            object-fit: cover;
+            height: 80vh; 
+        }
+        .swiper-container {
+            min-height: 600px;
+        }
+
+
     </style>
 </head>
-<body>
+<body class="bg-light">
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
     <div class="container-fluid">
         <a class="navbar-brand me-5 fw-bold fs-3 h-font" href="index.php">TIDI HOTEL</a>
@@ -121,7 +133,7 @@
             </div>
         </div>
     </div>
-
+<!-- Modal User Register -->
     <div class="modal fade" id="registerModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
@@ -201,7 +213,49 @@
         </div>
     </div>
 
+    <!-- Swiper -->
+    <div class="container-fluid px-lg-4 mt-4">
+        <div class="swiper swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/carousel/1.jpg" class="w-100 d-block">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/carousel/2.jpg" class="w-100 d-block">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/carousel/3.jpg" class="w-100 d-block">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/carousel/4.jpg" class="w-100 d-block">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/carousel/5.jpg" class="w-100 d-block">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/carousel/6.jpg" class="w-100 d-block">
+                </div>
+            </div>
+        </div>
+    </div>
+                    
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".swiper-container", {
+        spaceBetween: 30,
+        effect: "fade",
+        loop: true,
+        autoplay: {
+            delay: 3500,
+            disableOnInteraction: false,
+        },
+    });
+    </script>
 </body>
 </html>
