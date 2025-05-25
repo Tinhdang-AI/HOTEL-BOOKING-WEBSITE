@@ -13,52 +13,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="CSS/common.css">
     <style>
-        * {
-            font-family: 'Poppins', sans-serif;
-        }
-
-        .h-font {
-            font-family: 'Merienda', cursive;
-        }
-
-        /* Chrome, Safari, Edge, Opera  */
-        input::-webkit-outer-spin-button,
-        input::-webkit-inner-spin-button {
-            -webkit-appearance: none;
-            margin: 0;
-        }
-
-        /* Firefox */
-        input[type=number] {
-            -moz-appearance: textfield;
-        }
-
-        .swiper-slide img {
-            object-fit: cover;
-            width: 100%;
-            height: auto;
-            max-height: 50vh;
-        }
-
-        .swiper-container {
-            min-height: 50vh;
-        }
-
+        
+        
         @media screen and (max-width: 575px) {
             .swiper-container {
                 min-height: 35vh;
             }
         }
-
-        .custom-bg {
-            background-color: #2ec1ac;
-        }
-
-        .custom-bg:hover {
-            background-color: #279e8c;
-        }
-
         .availability-form {
             margin-top: -50px;
             z-index: 10;
@@ -99,20 +62,6 @@
                     <li class="nav-item">
                         <a class="nav-link me-2" href="#">About</a>
                     </li>
-                    <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li> -->
                 </ul>
                 <div class="d-flex">
                     <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
@@ -250,9 +199,6 @@
         <div class="swiper swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="images/carousel/1.jpg" class="w-100 d-block">
-                </div>
-                <div class="swiper-slide">
                     <img src="images/carousel/2.jpg" class="w-100 d-block">
                 </div>
                 <div class="swiper-slide">
@@ -359,23 +305,146 @@
                         </div>
                         <div class="rating mb-4">
                             <h6 class="mb-1">Rating</h6>
+                            <span class="badge rounded-pill bg-light " >
                             <i class="bi bi-star-fill text-warning"></i>
                             <i class="bi bi-star-fill text-warning"></i>
                             <i class="bi bi-star-fill text-warning"></i>
                             <i class="bi bi-star text-warning"></i>
+                            </span>
 
                         </div>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class="d-flex justify-content-evenly mb-2">
+                            <a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
+                            <a href="#" class="btn btn-sm btn-outline-dark shadow-none">More details</a>
+                        </div>
                     </div>
-
                 </div>
-
             </div>
+            <div class="col-lg-4 col-md-6 my-3">
+
+                <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
+                    <img src="images/rooms/10.jpg" class="card-img-top">
+
+                    <div class="card-body">
+                        <h5>Simple Room Name</h5>
+                        <h6 class="mb-4">1,900,000 VNĐ/night</h6>
+                        <div class="features mb-4">
+                            <h6 class="mb-1">Features</h6>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                2 Rooms
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                1 Bathroom
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                1 Balcony
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                3 Sofa
+                            </span>
+                        </div>
+                        <div class="facilities mb-4">
+                            <h6 class="mb-1">Facilities</h6>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                Wifi
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                Television
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                Air Conditioner
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                Room Heater
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                Mini Bar
+                            </span>
+                        </div>
+                        <div class="rating mb-4">
+                            <h6 class="mb-1">Rating</h6>
+                            <span class="badge rounded-pill bg-light " >
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            </span>
+
+                        </div>
+                        <div class="d-flex justify-content-evenly mb-2">
+                            <a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
+                            <a href="#" class="btn btn-sm btn-outline-dark shadow-none">More details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 my-3">
+
+                <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
+                    <img src="images/rooms/10.jpg" class="card-img-top">
+
+                    <div class="card-body">
+                        <h5>Simple Room Name</h5>
+                        <h6 class="mb-4">1,900,000 VNĐ/night</h6>
+                        <div class="features mb-4">
+                            <h6 class="mb-1">Features</h6>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                2 Rooms
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                1 Bathroom
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                1 Balcony
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                3 Sofa
+                            </span>
+                        </div>
+                        <div class="facilities mb-4">
+                            <h6 class="mb-1">Facilities</h6>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                Wifi
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                Television
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                Air Conditioner
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                Room Heater
+                            </span>
+                            <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                Mini Bar
+                            </span>
+                        </div>
+                        <div class="rating mb-4">
+                            <h6 class="mb-1">Rating</h6>
+                            <span class="badge rounded-pill bg-light " >
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                            </span>
+
+                        </div>
+                        <div class="d-flex justify-content-evenly mb-2">
+                            <a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
+                            <a href="#" class="btn btn-sm btn-outline-dark shadow-none">More details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
             <div class="col-lg-12 text-center mt-5">
-                <a href="" class="btn btn-sm btn-outline-dark shadow-none rounded-0 fw-bold">More Rooms</a>
+                <a href="" class="btn btn-sm btn-outline-dark shadow-none rounded-0 fw-bold">More Rooms >>></a>
             </div>
         </div>
     </div>
+
+
     <br><br><br><br>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
