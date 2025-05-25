@@ -41,12 +41,12 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white px-lg-3 py-lg-2 shadow-sm sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand me-5 fw-bold fs-3 h-font" href="index.php">TIDI HOTEL</a>
+            <a class="navbar-brand me-5 fw-bold fs-3 h-font" href="index.php">TIDA HOTEL</a>
             <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">    
                     <li class="nav-item">
                         <a class="nav-link active me-2" aria-current="page" href="#">Home</a>
                     </li>
@@ -527,10 +527,87 @@
                 <div class="swiper-pagination"></div>
         </div>
     </div>
+    <!-- Reach us -->
+    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold h-font">REACH US</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 p-4 mb-lg-0 mb-3 bg-white rounded">
+                <iframe class="w-100 rounded" height="320px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.31019275501!2d108.18733207427361!3d10.939924656158224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317684e0219dfedd%3A0x7191e2c02e6ddabd!2zMTAgTmd1eeG7hW4gxJDDrG5oIENoaeG7g3UsIFBoxrDhu51uZyBIw6BtIFRp4bq_biwgVGjDoG5oIHBo4buRIFBoYW4gVGhp4bq_dCwgQsOsbmggVGh14bqtbiwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1748185703052!5m2!1svi!2s" height="450" loading="lazy"></iframe>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="bg-white p-4 rounded mb-4">
+                    <h5>Call us</h5>
+                    <a href="tel:+84397901103" class="d-inline-block mb-2 text-decoration-none text-dark">
+                        <i class="bi bi-telephone-fill"></i> +84397901103
+                    </a>
+                    <br>
+                    <a href="tel:+84397901103" class="d-inline-block mb-2 text-decoration-none text-dark">
+                        <i class="bi bi-telephone-fill"></i> +84397901103
+                    </a>
+                </div>
+                
+        
+                <div class="bg-white p-4 rounded mb-4"> 
+                    <h5>Follow us</h5>
+                    <a href="#" class="d-inline-block mb-3 ">
+                        <span class="badge bg-light text-dark fs-6 p-2">
+                            <i class="bi bi-twitter me-1"></i>
+                            Twitter
+                        </span>
+                    </a>
+                    <br>
+                    <a href="#" class="d-inline-block mb-3">
+                        <span class="badge bg-light text-dark fs-6 p-2">
+                            <i class="bi bi-facebook me-1"></i>
+                            Facebook
+                        </span>
+                    </a>
+                    <br>
+                    <a href="#" class="d-inline-block">
+                        <span class="badge bg-light text-dark fs-6 p-2">
+                            <i class="bi bi-instagram me-1"></i>
+                            Instagram
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="container-fluid bg-white mt-5">
+        <div class="row">
+            <div class="col-lg-4">
+                <h3 class="h-font fw-bold fs-3 mb-2">TIDA HOTEL</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit
+                    
+                </p>
+            </div>
+            <div class="col-lg-4">
+                <h5 class="mb-3">Links</h5>
+                <a href="#" class="d-inline-block mb-2 text-decoration-none text-dark">Home</a><br>
+                <a href="#" class="d-inline-block mb-2 text-decoration-none text-dark">Rooms</a><br>
+                <a href="#" class="d-inline-block mb-2 text-decoration-none text-dark">Facilities</a><br>
+                <a href="#" class="d-inline-block mb-2 text-decoration-none text-dark">Contact</a><br>
+                <a href="#" class="d-inline-block mb-2 text-decoration-none text-dark">About</a><br>
+            </div>
+            <div class="col-lg-4">
+                <h5 class="mb-3">Follow Us</h5>
+                <a href="#" class="d-inline-block mb-2 text-decoration-none text-dark">
+                    <i class="bi bi-twitter"></i> Twitter
+                </a><br>
+                <a href="#" class="d-inline-block mb-2 text-decoration-none text-dark">
+                    <i class="bi bi-facebook"></i> Facebook
+                </a><br>
+                <a href="#" class="d-inline-block text-decoration-none text-dark">
+                    <i class="bi bi-instagram"></i> Instagram
+                </a><br>
+            
+            </div>
+        </div>
+    </div>
 
-
-
-    <br><br><br><br>
+    <h6 class="text-center bg-dark text-white p-3 m-0 ">@ Designed and Developed by TIDA WEBDEV</h6>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
