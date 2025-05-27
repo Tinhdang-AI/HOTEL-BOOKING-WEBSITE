@@ -5,7 +5,6 @@
                 <h3 class="h-font fw-bold fs-3 mb-2">TIDA HOTEL</h3>
                 <p>
                     TIDA Hotel is a premier destination for travelers seeking comfort, luxury, and exceptional service. Our hotel offers a wide range of amenities and facilities designed to make your stay enjoyable and memorable. From our spacious rooms to our state-of-the-art fitness center, we have everything you need for a perfect getaway.
-                    Located in the heart of the city, TIDA Hotel is conveniently situated near popular attractions, shopping centers, and dining options. Whether you're here for business or leisure, our friendly staff is dedicated to providing you with a seamless experience from check-in to check-out.
                 </p>        
             </div>
             <div class="col-lg-4 p-4">

@@ -80,13 +80,12 @@
             <div class="col-lg-4 col-md-6 mb-5 px-4">
                 <div class="bg-white rounded shadow p-4 border-top border-4 border-dark pop">
                     <div class="d-flex align-items-center mb-2">
-                        <img src="images/features/fork-knife.svg" width="45px" alt="">
+                        <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/restaurant--v1.png" alt="restaurant--v1"/>
                         <h5 class="m-0 ms-3">Restaurant</h5></h5>
-                        
                     </div>
                     <p>
                         Our on-site restaurant offers a variety of cuisines to satisfy your culinary cravings.
-                        Enjoy a delightful dining experience with a menu that caters to all tastes.
+                        Enjoy a delightful dining.
                     </p>
                 </div>
             </div>

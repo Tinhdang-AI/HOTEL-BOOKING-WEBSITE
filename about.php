@@ -59,7 +59,7 @@
                 <div class="bg-white rounded shadow p-4 border-top border-4 text-center box">
                     <img width="70" height="70" src="https://img.icons8.com/color/48/conference-skin-type-7.png" alt="conference-skin-type-7"/>
                     <h4 class="mt-3">
-                        100+ EMPLOYEES
+                        100+ CUSTOMERS
                     </h4>
                 </div>
             </div>
