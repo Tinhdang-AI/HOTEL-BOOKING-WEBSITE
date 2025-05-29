@@ -47,9 +47,12 @@
             margin: 0 auto;
             height: 1.7px;
         }
-
-        /* Cho toàn bộ hàng của footer sử dụng Flexbox
-        .container-fluid > .row {
-            display: flex;
-            flex-wrap: wrap;
-        } */
+        .custom-alert{
+            position: fixed;
+            top: 25px;
+            right: 25px;
+        }
+        #dashboard-menu{
+            position: fixed;
+            height: 100%;
+        }

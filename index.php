@@ -7,7 +7,7 @@
     <title>TIDA HOTEL</title>
     <?php require('inc/links.php'); ?>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="CSS/common.css">
+    <link rel="stylesheet" href="css/common.css">
     <style>
         @media (max-width: 768px) {
         .container-fluid > .row {
@@ -111,7 +111,7 @@
             <div class="col-lg-4 col-md-6 my-3">
 
                 <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
-                    <img src="images/rooms/10.jpg" class="card-img-top">
+                    <img src="images/rooms/1.jpg" class="card-img-top">
 
                     <div class="card-body">
                         <h5>Simple Room Name</h5>
@@ -178,7 +178,7 @@
             <div class="col-lg-4 col-md-6 my-3">
 
                 <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
-                    <img src="images/rooms/10.jpg" class="card-img-top">
+                    <img src="images/rooms/2.png" class="card-img-top">
 
                     <div class="card-body">
                         <h5>Simple Room Name</h5>
@@ -245,7 +245,7 @@
             <div class="col-lg-4 col-md-6 my-3">
 
                 <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
-                    <img src="images/rooms/10.jpg" class="card-img-top">
+                    <img src="images/rooms/3.png" class="card-img-top">
 
                     <div class="card-body">
                         <h5>Simple Room Name</h5>
