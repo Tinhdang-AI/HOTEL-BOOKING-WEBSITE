@@ -71,7 +71,7 @@
                             <input type="email" class="form-control shadow-none">
                         </div>
                         <div class="mb-3">
-                            <label class="form-label" style="font-weight: 500;">Suject</label>
+                            <label class="form-label" style="font-weight: 500;">Subject</label>
                             <input type="text" class="form-control shadow-none">
                         </div>
                         <div class="mb-3">
