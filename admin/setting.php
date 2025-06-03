@@ -165,16 +165,16 @@ adminLogin();
                                                 <div class="mb-3">
                                                     <label class="form-label fw-bold">Address</label>
                                                     <input type="text" name="address" id="address_inp" class="form-control shadow-none" required />
-                                                </div>  
+                                                </div>
                                                 <div class="mb-3">
                                                     <label class="form-label fw-bold">Google Map Link</label>
                                                     <input type="text" name="gmap" id="gmap_inp" class="form-control shadow-none" required />
-                                                </div> 
+                                                </div>
                                                 <div class="mb-3">
                                                     <label class="form-label fw-bold">Phone Numbers (with country code)</label>
                                                     <div class="input-group mb-3">
                                                         <span class="input-group-text">
-                                                         <i class="bi bi-telephone-fill"></i>
+                                                            <i class="bi bi-telephone-fill"></i>
                                                         </span>
                                                         <input type="text" name="pn1" id="pn1_inp" class="form-control shadow-none" required>
                                                     </div>
@@ -184,11 +184,11 @@ adminLogin();
                                                         </span>
                                                         <input type="text" name="pn2" id="pn2_inp" class="form-control shadow-none">
                                                     </div>
-                                                </div>   
+                                                </div>
                                                 <div class="mb-3">
                                                     <label class="form-label fw-bold">Email</label>
                                                     <input type="email" name="email" id="email_inp" class="form-control shadow-none" required />
-                                                </div> 
+                                                </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="mb-3">
@@ -214,8 +214,8 @@ adminLogin();
                                                     <div class="mb-3">
                                                         <label class="form-label fw-bold">iFrame Src</label>
                                                         <input type="text" name="iframe" id="iframe_inp" class="form-control shadow-none" required />
-                                                    </div>  
-                                                </div> 
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -241,9 +241,11 @@ adminLogin();
 
         let general_s_form = document.getElementById('general_s_form');
 
-
         let site_title_inp = document.getElementById('site_title_inp');
         let site_about_inp = document.getElementById('site_about_inp');
+
+        let contacts_s_form = document.getElementById('contacts_s_form');
+
 
 
         function get_general() {
@@ -372,6 +374,46 @@ adminLogin();
                 }
             }
         }
+
+        contacts_s_form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            upd_contacts();
+        })
+
+        function upd_contacts() {
+            let index = ['address', 'gmap', 'pn1', 'pn2', 'email', 'tw', 'fb', 'insta', 'iframe'];
+            let contacts_p_id = ['address_inp', 'gmap_inp', 'pn1_inp', 'pn2_inp', 'email_inp', 'tw_inp', 'fb_inp', 'insta_inp', 'iframe_inp'];
+
+            let data_str = "";
+
+            for (i = 0; i < index.length; i++) {
+                data_str += index[i] + "=" + document.getElementById(contacts_p_id[i]).value + '&';
+            }
+            data_str += "upd_contacts";
+
+
+            let xhr = new XMLHttpRequest();
+            xhr.open("POST", "ajax/settings_crud.php", true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+            xhr.onload = function() {
+                var myModal = document.getElementById('contacts-s');
+                var modal = bootstrap.Modal.getInstance(myModal);
+                modal.hide();
+                if (this.responseText == 1) {
+                    alert('success', 'Changes Saved!');
+                    get_contacts();
+                } else {
+                    alert('failed', 'No Changes Made!');
+                }
+                get_general(); // Reload updated c
+            }
+            xhr.send(data_str);
+
+        }
+
+
+
         window.onload = function() {
             get_general();
             get_contacts();

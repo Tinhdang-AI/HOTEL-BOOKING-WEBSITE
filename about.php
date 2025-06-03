@@ -48,7 +48,7 @@
                 </p>
             </div>
             <div class="col-lg-5 col-md-5 mb-4 order-lg-2 order-md-2 order-1">
-                <img src="images/about/myself.png" class="w-100 h-80 rounded shadow" alt="About Us Image">
+                <img src="images/about/myself3.jpg" class="w-100 h-80 rounded shadow" alt="About Us Image">
             </div>
         </div>
     </div>
@@ -96,19 +96,19 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper mb-5">
                 <div class="swiper-slide bg-white text-center overflow-hidden rounded shadow">
-                    <img src="images/about/myself.png" class="w-30" alt="">
+                    <img src="images/about/myself.jpg" class="w-30" alt="">
                     <h5 class="mt-2" >TINH DANG</h5>
                 </div>
                 <div class="swiper-slide bg-white text-center overflow-hidden rounded shadow">
-                    <img src="images/about/myself.png" class="w-30" alt="">
+                    <img src="images/about/myself1.jpg" class="w-30" alt="">
                     <h5 class="mt-2" >TINH DANG</h5>
                 </div>
                 <div class="swiper-slide bg-white text-center overflow-hidden rounded shadow">
-                    <img src="images/about/myself.png" class="w-30" alt="">
+                    <img src="images/about/myself2.jpg" class="w-30" alt="">
                     <h5 class="mt-2" >TINH DANG</h5>
                 </div>
                 <div class="swiper-slide bg-white text-center overflow-hidden rounded shadow">
-                    <img src="images/about/myself.png" class="w-30" alt="">
+                    <img src="images/about/myself3.jpg" class="w-30" alt="">
                     <h5 class="mt-2" >TINH DANG</h5>
                 </div>
             </div>
